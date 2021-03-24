@@ -26,6 +26,12 @@ div{
   margin-right: auto;
   width:40%;
 }
+.fund {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%;
+}
 
 h2{
   color: #463f3f;
@@ -159,15 +165,23 @@ li.dropdown {
 
 .grid-container {
   display: grid;
-  grid-column-gap: 20px;
-  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto;
+  background-color: white;
+  padding: 5px;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto;
   background-color: white;
   padding: 5px;
 }
 
 .new-list{
   font-size: 15px;
-  float: left;
+  float: center;
   margin: 0;
   padding: 0;
 
@@ -196,4 +210,22 @@ li.dropdown {
   font-weight: bold;
 
   text-align: left;
+}
+
+h4
+{
+  font-family: "Poppins Light", Times, serif;
+  color: #463f3f;
+  font-size: large;
+  font-weight: bold;
+}
+
+.newul1 {
+  list-style:  none;
+  font-family: "Poppins Light", Times, serif;
+  color: #463f3f;
+  font-size: x-large;
+  font-weight: bold;
+
+  text-align: center;
 }
